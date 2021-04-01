@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 5fr);
+}
+
+.content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2em;
+}
+
+.content1 {
+  background-color: #9ddfd3;
+}
+
+.content2 {
+  grid-column: 0 / span 1;
+  grid-row: 2 / 4;
+  background-image: url('./img/form.PNG');
+}
+
+.content3 {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+  background-image: url('./img/content3.jpg');
+}
+
+.content4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: rgba(228, 137, 0, 0.5);
+}
+
+.content5 {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 2;
+  background-image: url('./img/content5.jpg');
+}
+
+.content6 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  background-color: rgba(199, 33, 71, 0.5);
+}
+
+.content7 {
+  grid-column: 6 / span 2;
+  grid-row: 1 / span 2;
+  background-image: url('./img/content7.jpg');
+}
+
+.content8 {
+  grid-column: 7/8;
+  grid-row: 2/3;
+  background-color: rgba(97, 25, 42, 0.5);
+}
+
+.content9 {
+  background-image: url('./img/content9.jpg');
+}
+
+.content10 {
+  background-image: url('./img/content10.jpg');
+}
+
+.content11 {
+  grid-column: 4 / span 2;
+  grid-row: 3 / 5;
+  background-image: url('./img/content11.jpg');
+}
+
+.content12 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+  background-color: rgba(148, 224, 146, 0.5);
+}
+
+.content13 {
+  grid-column: 6 / span 2;
+  grid-row: 3 / 5;
+  background-image: url('./img/content13.jpg');
+}
+
+.content14 {
+  grid-column: 7/8;
+  grid-row: 4/5;
+  background-color: rgba(29, 106, 145, 0.5);
+}
+
+.content15 {
+  grid-column: 1/2;
+  grid-row: 4 / span 2;
+  background-color: #9ddfd3;
+}
+
+.content16 {
+  background-color: #ffc93c;
+}
+
+.content17 {
+  background-color: #3c415c;
+}
+
+.content18 {
+  grid-column: 2 / span 2;
+  grid-row: 5 / 6;
+  background-image: url('./img/content18.jpg');
+  width: 100%;
+  height: 150px;
+}
+
+.content19 {
+  background-image: url('./img/content19.jpg');
+  width: 100%;
+  height: 150px;
+}
+
+.content20 {
+  background-image: url('./img/content20.jpg');
+  width: 100%;
+  height: 150px;
+}
+
+.content21 {
+  grid-column: 6 / span 2;
+  grid-row: 5 / 6;
+  background-image: url('./img/content21.jpg');
+  width: 100%;
+  height: 150px;
+}
